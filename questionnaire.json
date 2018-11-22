@@ -1,0 +1,119 @@
+{
+  "questions": [
+    {
+      "page": 1,
+      "type": "html",
+      "id": "Title 1",
+      "html": "<h1>Example survey</h1><br><p>This is an example of a survey done with the Feather survey system.<br><br>Each page consists of items such as individual questions, separate html-items (like this text, the title above or even a logo) and navigation buttons.</p>"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "id": "firstname",
+      "question": "First name:"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "id": "lastname",
+      "question": "Last name:"
+    },
+    {
+      "page": 1,
+      "type": "textarea",
+      "id": "freefeedback",
+      "question": "What kind of free feedback you would give?<br>"
+    },
+    {
+      "page": 1,
+      "type": "checkbox",
+      "id": "duckhare",
+      "question": "Here's a picture <br><img src=\"./img/wikipedia_duckrabbit.png\" alt=\"A duck or a rabbit\"><br>What do you see?",
+      "values": [
+        "duck",
+        "rabbit",
+        "bird"
+      ]
+    },
+    {
+      "page": 1,
+      "type": "radiobutton",
+      "id": "howManyQuestions",
+      "question": "How many questions is too many questions per page?",
+      "values": [
+        "1",
+        "2-5",
+        ">5"
+      ]
+    },
+    {
+      "page": 1,
+      "type": "nextPage",
+      "previousValue": "Previous",
+      "nextValue": "Next",
+      "id": "next1"
+    },
+    {
+      "page": 2,
+      "type": "likert",
+      "id": "opinionSoFar",
+      "question": "Has this survey been okso far?",
+      "start": "Really great",
+      "end": "Really bad"
+    },
+    {
+      "page": 2,
+      "type": "likert",
+      "id": "opinionOnLikert",
+      "question": "Do you agree with the statement 'Likert scale questions are great.'?",
+      "start": "Strongly agree",
+      "end": "Strongly disagree"
+    },
+    {
+      "page": 2,
+      "type": "likert",
+      "id": "thirdLikert",
+      "question": "Is three likert-ish questions too much?",
+      "start": "Yea, way too much",
+      "end": "No, I want much more of them"
+    },
+    {
+      "page": 2,
+      "type": "select",
+      "id": "color",
+      "question": "Which is the best color: ",
+      "values": [
+        "No preference",
+        "Red",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "page": 2,
+      "type": "nextPage",
+      "previousValue": "Back",
+      "nextValue": "Onwards! (you can change the text here)",
+      "id": "next2"
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "id": "lastquestion",
+      "question": "Still something to add?"
+    },
+    {
+      "page": 3,
+      "type": "nextPage",
+      "previousValue": "Back",
+      "nextValue": "Send",
+      "id": "send"
+    },
+    {
+      "page": 4,
+      "type": "html",
+      "id": "thanks",
+      "html": "<h2>Thank you!</h2><br><br>All answers should now be saved. If you came to this survey using a link that has an id in it, you can use the same link to change the answers still later.<br>"
+    }
+  ]
+}
